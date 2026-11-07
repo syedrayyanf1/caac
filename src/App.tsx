@@ -475,7 +475,7 @@ export default function App() {
                 {/* 4 Sleek Frosted Glass KPI Stat Cards */}
                 <section className="grid grid-cols-2 gap-4 lg:grid-cols-4">
                   <div className="rounded-xl border border-black/[0.08] bg-white/80 p-5 backdrop-blur-md transition-all duration-200 hover:-translate-y-[1px] hover:border-black/15 dark:border-white/[0.07] dark:bg-[#121215]/75 dark:hover:border-white/15">
-                    <div className="text-xs font-medium text-zinc-500 dark:text-zinc-400">
+                    <div className="text-xs font-bold text-zinc-700 dark:text-zinc-200 tracking-wide">
                       Questions Attempted
                     </div>
                     <div className="mt-2 font-display text-3xl font-semibold tracking-tight text-[#09090B] dark:text-white">
@@ -487,7 +487,7 @@ export default function App() {
                   </div>
 
                   <div className="rounded-xl border border-black/[0.08] bg-white/80 p-5 backdrop-blur-md transition-all duration-200 hover:-translate-y-[1px] hover:border-black/15 dark:border-white/[0.07] dark:bg-[#121215]/75 dark:hover:border-white/15">
-                    <div className="text-xs font-medium text-zinc-500 dark:text-zinc-400">
+                    <div className="text-xs font-bold text-zinc-700 dark:text-zinc-200 tracking-wide">
                       Overall Accuracy
                     </div>
                     <div className="mt-2 font-display text-3xl font-semibold tracking-tight text-[#09090B] dark:text-white">
@@ -499,7 +499,7 @@ export default function App() {
                   </div>
 
                   <div className="rounded-xl border border-black/[0.08] bg-white/80 p-5 backdrop-blur-md transition-all duration-200 hover:-translate-y-[1px] hover:border-black/15 dark:border-white/[0.07] dark:bg-[#121215]/75 dark:hover:border-white/15">
-                    <div className="text-xs font-medium text-zinc-500 dark:text-zinc-400">
+                    <div className="text-xs font-bold text-zinc-700 dark:text-zinc-200 tracking-wide">
                       Tests Completed
                     </div>
                     <div className="mt-2 font-display text-3xl font-semibold tracking-tight text-[#09090B] dark:text-white">
@@ -511,7 +511,7 @@ export default function App() {
                   </div>
 
                   <div className="rounded-xl border border-black/[0.08] bg-white/80 p-5 backdrop-blur-md transition-all duration-200 hover:-translate-y-[1px] hover:border-black/15 dark:border-white/[0.07] dark:bg-[#121215]/75 dark:hover:border-white/15">
-                    <div className="flex items-center justify-between text-xs font-medium text-zinc-500 dark:text-zinc-400">
+                    <div className="flex items-center justify-between text-xs font-bold text-zinc-700 dark:text-zinc-200 tracking-wide">
                       <span>Study Streak</span>
                       <Flame className="h-3.5 w-3.5 text-zinc-400 dark:text-zinc-500" />
                     </div>
